@@ -19,7 +19,7 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({ children
             // Seed initial data for first time users? Or empty.
             // Let's add one example task
             const demoTask: Task = {
-                id: crypto.randomUUID(),
+                id: Date.now().toString(36) + Math.random().toString(36).substr(2),
                 title: "My first task",
                 createdAt: new Date().toISOString()
             };
@@ -37,7 +37,7 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     const addTask = (title: string) => {
         const newTask: Task = {
-            id: crypto.randomUUID(),
+            id: Date.now().toString(36) + Math.random().toString(36).substr(2),
             title,
             createdAt: new Date().toISOString(),
         };

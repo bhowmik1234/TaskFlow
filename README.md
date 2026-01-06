@@ -51,10 +51,10 @@ This will launch the native desktop window. Changes to the React code (`src/`) w
 ### Building the Application
 
 #### For macOS
-download the file from [Releases](https://github.com/bhowmik1234/TaskFlow-/releases)
+download the file from [Releases](https://github.com/bhowmik1234/TaskFlow/releases)
 
 #### For Windows
-download the file from [Releases](https://github.com/bhowmik1234/TaskFlow-/releases)
+download the file from [Releases](https://github.com/bhowmik1234/TaskFlow/releases)
 
 ## Project Structure
 
